@@ -266,6 +266,18 @@ function locationFromTitle(title) {
   return hit ? [hit] : scraperConfig.defaultLocation;
 }
 
+/**
+ * Parse one cariere.auchan.ro job page: .job-title, then .custom-field blocks
+ * (first = city, then store, domain, contract type).
+ * @param {string} html
+ * @returns {{title: string|null, city: string|null}}
+ */
+function parseJobDetail(html) {
+  const title = cleanTitle((html.match(/class="job-title[^"]*"[^>]*>([\s\S]*?)<\/div>/) || [])[1]);
+  const fields = [...html.matchAll(/class="custom-field[^"]*"[^>]*>([\s\S]*?)<\/div>/g)].map((m) => cleanTitle(m[1]));
+  return { title, city: fields[0] || null };
+}
+
 async function scrapeCareers() {
   console.log(`Scraping ${scraperConfig.sources.listing} ...`);
   const jobs = [];
@@ -275,7 +287,9 @@ async function scrapeCareers() {
 
   let listingItems = [];
   try {
-    listingItems = parseListing(await fetchListing());
+    // Auchan: /joburi is client-rendered (Algolia) -- the sitemap is the source of truth,
+    // so the generic listing parse (which would match page chrome) is deliberately skipped.
+    listingItems = [];
     console.log(`  Listing: ${listingItems.length} open positions`);
   } catch (err) {
     console.log(`  Listing error: ${err.message}`);
@@ -347,14 +361,24 @@ async function scrapeCareers() {
     // Listing unreachable — fall back to sitemap-only, deriving titles from slugs.
     console.log("  Falling back to sitemap-only (titles from slugs)");
     for (const e of sitemapEntries) {
-      const title = e.slug
-        .split("-")
-        .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-        .join(" ");
+      // One detail page per job: .job-title, then .custom-field blocks
+      // (first = city, then store, domain, contract type).
+      let title = null;
+      let city = null;
+      try {
+        const res = await fetch(e.url, { timeout: TIMEOUT, headers: { "User-Agent": userAgent } });
+        if (!res.ok) { console.log(`  ${e.url} -> ${res.status}, skipped`); await sleep(PAGE_DELAY); continue; }
+        const html = await res.text();
+        ({ title, city } = parseJobDetail(html));
+      } catch (err) {
+        console.log(`  detail fetch failed ${e.url}: ${err.message}`);
+      }
+      await sleep(PAGE_DELAY);
+      if (!title) continue;
       jobs.push({
         url: e.url,
         title,
-        location: scraperConfig.defaultLocation,
+        location: city ? [city] : scraperConfig.defaultLocation,
         workmode: scraperConfig.defaultWorkmode,
         source: CAREERS_SOURCE
       });
@@ -727,7 +751,7 @@ async function main(dryRun = process.argv.includes("--dry-run")) {
   }
 }
 
-export { mapToJobModel, transformJobsForSOLR, scrapeCareers, fetchSitemapJobUrls, parseListing, slugify, matchSitemapUrl, matchSitemapUrlExact, parseDeadline, dropDeadUrls };
+export { parseJobDetail, mapToJobModel, transformJobsForSOLR, scrapeCareers, fetchSitemapJobUrls, parseListing, slugify, matchSitemapUrl, matchSitemapUrlExact, parseDeadline, dropDeadUrls };
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   main();
