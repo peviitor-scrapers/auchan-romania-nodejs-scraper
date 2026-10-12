@@ -101,7 +101,7 @@ describe('E2E: Full Scraping Pipeline', () => {
         expect(j.title.length).toBeGreaterThan(0);
         expect(typeof j.url).toBe('string');
       }
-    }, 60000);
+  }, 240000); // Auchan: one detail page per job (~90 x 1s delay)
   });
 
   describe('Company validation (needs a configured company + network)', () => {
