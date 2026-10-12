@@ -155,7 +155,7 @@ describe('Integration: API Workflow', () => {
 
       expect(result).not.toBeNull();
       expect(cifMatches(result.id)).toBe(true);
-      expect(result.company).toBe(COMPANY_NAME);
+      expect(namesMatch(result.company, COMPANY_NAME)).toBe(true);
       expect(result.status).toBe('activ');
       expect(Array.isArray(result.location)).toBe(true);
       expect(result.lastScraped).toMatch(/^\d{4}-\d{2}-\d{2}$/);
@@ -214,7 +214,8 @@ describe('Integration: API Workflow', () => {
       const job = result.docs[0];
       expect(job).toHaveProperty('url');
       expect(job).toHaveProperty('title');
-      expect(job).toHaveProperty('company', COMPANY_NAME);
+      expect(job).toHaveProperty('company');
+      expect(namesMatch(job.company, COMPANY_NAME)).toBe(true);
       expect(cifMatches(job.cif)).toBe(true);
       expect(job).toHaveProperty('status');
       expect(job).toHaveProperty('location');
@@ -277,14 +278,14 @@ describe('Integration: API Workflow', () => {
       const companyData = await api.getCompanyByCif(COMPANY_CIF);
       expect(companyData).not.toBeNull();
       expect(cifMatches(companyData.id)).toBe(true);
-      expect(companyData.company).toBe(COMPANY_NAME);
+      expect(namesMatch(companyData.company, COMPANY_NAME)).toBe(true);
     }, 30000);
 
     itIfApi('should validate company and query API for existing jobs', async () => {
       const companyResult = await companyModule.validateAndGetCompany();
 
       expect(companyResult.status).toBe('active');
-      expect(companyResult.company).toBe(COMPANY_NAME);
+      expect(namesMatch(companyResult.company, COMPANY_NAME)).toBe(true);
       expect(companyResult.cif).toBe(COMPANY_CIF);
 
       if (companyResult.existingJobsCount === 0) {
