@@ -1,4 +1,4 @@
-# AUCHAN ROMANIA SA
+# AUCHAN ROMÂNIA SA
 
 ## Company Info
 
@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, STR BRAŞOV, NR.25, CAMERA 1, ET.4 |
 | Website | [https://www.auchan.ro](https://www.auchan.ro) |
 | Careers | [https://cariere.auchan.ro/joburi](https://cariere.auchan.ro/joburi) |
-| Last Scraped | 2026-10-12 |
+| Last Scraped | 2026-10-13 |
 
-## Current Job Listings (78)
+## Current Job Listings (79)
 
-_Generated: 2026-10-12T18:22:39.779Z_
+_Generated: 2026-10-13T13:26:56.462Z_
 
 ### Specialist Aprovizionare
 
@@ -86,11 +86,25 @@ _Generated: 2026-10-12T18:22:39.779Z_
 - **Location:** București
 - **Status:** scraped
 
+### Director adjunct magazin
+
+- **URL:** [https://cariere.auchan.ro/job/director-adjunct-magazin-273595](https://cariere.auchan.ro/job/director-adjunct-magazin-273595)
+- **Work Mode:** on-site
+- **Location:** București
+- **Status:** scraped
+
 ### Operator vânzări polivalent
 
 - **URL:** [https://cariere.auchan.ro/job/operator-vanzari-polivalent-274329](https://cariere.auchan.ro/job/operator-vanzari-polivalent-274329)
 - **Work Mode:** on-site
 - **Location:** Oradea
+- **Status:** scraped
+
+### Operator vânzări polivalent
+
+- **URL:** [https://cariere.auchan.ro/job/operator-vanzari-polivalent-274623](https://cariere.auchan.ro/job/operator-vanzari-polivalent-274623)
+- **Work Mode:** on-site
+- **Location:** Timișoara
 - **Status:** scraped
 
 ### Operator vânzări polivalent -bauturi
@@ -159,20 +173,6 @@ _Generated: 2026-10-12T18:22:39.779Z_
 ### Picker E-Commerce
 
 - **URL:** [https://cariere.auchan.ro/job/picker-e-commerce-281697](https://cariere.auchan.ro/job/picker-e-commerce-281697)
-- **Work Mode:** on-site
-- **Location:** București
-- **Status:** scraped
-
-### Agent securitate
-
-- **URL:** [https://cariere.auchan.ro/job/agent-securitate-281722](https://cariere.auchan.ro/job/agent-securitate-281722)
-- **Work Mode:** on-site
-- **Location:** București
-- **Status:** scraped
-
-### Operator vânzări polivalent
-
-- **URL:** [https://cariere.auchan.ro/job/operator-vanzari-polivalent-281738](https://cariere.auchan.ro/job/operator-vanzari-polivalent-281738)
 - **Work Mode:** on-site
 - **Location:** București
 - **Status:** scraped
@@ -348,6 +348,13 @@ _Generated: 2026-10-12T18:22:39.779Z_
 ### Operator vânzări polivalent
 
 - **URL:** [https://cariere.auchan.ro/job/operator-vanzari-polivalent-283069](https://cariere.auchan.ro/job/operator-vanzari-polivalent-283069)
+- **Work Mode:** on-site
+- **Location:** Timișoara
+- **Status:** scraped
+
+### Operator vânzări polivalent
+
+- **URL:** [https://cariere.auchan.ro/job/operator-vanzari-polivalent-283111](https://cariere.auchan.ro/job/operator-vanzari-polivalent-283111)
 - **Work Mode:** on-site
 - **Location:** Timișoara
 - **Status:** scraped
