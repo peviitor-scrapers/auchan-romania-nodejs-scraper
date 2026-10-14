@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, STR BRAŞOV, NR.25, CAMERA 1, ET.4 |
 | Website | [https://www.auchan.ro](https://www.auchan.ro) |
 | Careers | [https://cariere.auchan.ro/joburi](https://cariere.auchan.ro/joburi) |
-| Last Scraped | 2026-10-13 |
+| Last Scraped | 2026-10-14 |
 
-## Current Job Listings (79)
+## Current Job Listings (80)
 
-_Generated: 2026-10-13T13:26:56.462Z_
+_Generated: 2026-10-14T11:05:24.437Z_
 
 ### Specialist Aprovizionare
 
@@ -140,6 +140,13 @@ _Generated: 2026-10-13T13:26:56.462Z_
 - **URL:** [https://cariere.auchan.ro/job/vanzator-pescarie-281546](https://cariere.auchan.ro/job/vanzator-pescarie-281546)
 - **Work Mode:** on-site
 - **Location:** Constanța
+- **Status:** scraped
+
+### Tehnician Întreținere
+
+- **URL:** [https://cariere.auchan.ro/job/tehnician-intretinere-281555](https://cariere.auchan.ro/job/tehnician-intretinere-281555)
+- **Work Mode:** on-site
+- **Location:** București
 - **Status:** scraped
 
 ### Manager departamente comerciale
