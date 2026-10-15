@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, STR BRAŞOV, NR.25, CAMERA 1, ET.4 |
 | Website | [https://www.auchan.ro](https://www.auchan.ro) |
 | Careers | [https://cariere.auchan.ro/joburi](https://cariere.auchan.ro/joburi) |
-| Last Scraped | 2026-10-14 |
+| Last Scraped | 2026-10-15 |
 
-## Current Job Listings (80)
+## Current Job Listings (76)
 
-_Generated: 2026-10-14T11:05:24.437Z_
+_Generated: 2026-10-15T10:48:27.570Z_
 
 ### Specialist Aprovizionare
 
@@ -82,13 +82,6 @@ _Generated: 2026-10-14T11:05:24.437Z_
 ### Manager performanta
 
 - **URL:** [https://cariere.auchan.ro/job/manager-performanta-273590](https://cariere.auchan.ro/job/manager-performanta-273590)
-- **Work Mode:** on-site
-- **Location:** București
-- **Status:** scraped
-
-### Director adjunct magazin
-
-- **URL:** [https://cariere.auchan.ro/job/director-adjunct-magazin-273595](https://cariere.auchan.ro/job/director-adjunct-magazin-273595)
 - **Work Mode:** on-site
 - **Location:** București
 - **Status:** scraped
@@ -229,13 +222,6 @@ _Generated: 2026-10-14T11:05:24.437Z_
 ### Operator vânzări polivalent
 
 - **URL:** [https://cariere.auchan.ro/job/operator-vanzari-polivalent-281968](https://cariere.auchan.ro/job/operator-vanzari-polivalent-281968)
-- **Work Mode:** on-site
-- **Location:** București
-- **Status:** scraped
-
-### Operator Tvci (dispecer)
-
-- **URL:** [https://cariere.auchan.ro/job/operator-tvci-dispecer-281971](https://cariere.auchan.ro/job/operator-tvci-dispecer-281971)
 - **Work Mode:** on-site
 - **Location:** București
 - **Status:** scraped
@@ -452,13 +438,6 @@ _Generated: 2026-10-14T11:05:24.437Z_
 
 ### Operator vânzări polivalent
 
-- **URL:** [https://cariere.auchan.ro/job/operator-vanzari-polivalent-487793](https://cariere.auchan.ro/job/operator-vanzari-polivalent-487793)
-- **Work Mode:** on-site
-- **Location:** București
-- **Status:** scraped
-
-### Operator vânzări polivalent
-
 - **URL:** [https://cariere.auchan.ro/job/operator-vanzari-polivalent-503619](https://cariere.auchan.ro/job/operator-vanzari-polivalent-503619)
 - **Work Mode:** on-site
 - **Location:** Ploiești
@@ -523,13 +502,6 @@ _Generated: 2026-10-14T11:05:24.437Z_
 ### Operator vânzări polivalent case
 
 - **URL:** [https://cariere.auchan.ro/job/operator-vanzari-polivalent-case-556158](https://cariere.auchan.ro/job/operator-vanzari-polivalent-case-556158)
-- **Work Mode:** on-site
-- **Location:** București
-- **Status:** scraped
-
-### Specialist Resurse Umane
-
-- **URL:** [https://cariere.auchan.ro/job/specialist-resurse-umane-558147](https://cariere.auchan.ro/job/specialist-resurse-umane-558147)
 - **Work Mode:** on-site
 - **Location:** București
 - **Status:** scraped
