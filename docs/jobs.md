@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, STR BRAŞOV, NR.25, CAMERA 1, ET.4 |
 | Website | [https://www.auchan.ro](https://www.auchan.ro) |
 | Careers | [https://cariere.auchan.ro/joburi](https://cariere.auchan.ro/joburi) |
-| Last Scraped | 2026-10-21 |
+| Last Scraped | 2026-10-22 |
 
-## Current Job Listings (75)
+## Current Job Listings (73)
 
-_Generated: 2026-10-21T11:05:13.833Z_
+_Generated: 2026-10-22T11:20:41.638Z_
 
 ### Specialist Aprovizionare
 
@@ -54,13 +54,6 @@ _Generated: 2026-10-21T11:05:13.833Z_
 ### Vânzător produse proaspete
 
 - **URL:** [https://cariere.auchan.ro/job/vanzator-produse-proaspete-273201](https://cariere.auchan.ro/job/vanzator-produse-proaspete-273201)
-- **Work Mode:** on-site
-- **Location:** București
-- **Status:** scraped
-
-### Operator vânzări polivalent
-
-- **URL:** [https://cariere.auchan.ro/job/operator-vanzari-polivalent-273237](https://cariere.auchan.ro/job/operator-vanzari-polivalent-273237)
 - **Work Mode:** on-site
 - **Location:** București
 - **Status:** scraped
@@ -322,13 +315,6 @@ _Generated: 2026-10-21T11:05:13.833Z_
 - **URL:** [https://cariere.auchan.ro/job/operator-vanzari-polivalent-283019](https://cariere.auchan.ro/job/operator-vanzari-polivalent-283019)
 - **Work Mode:** on-site
 - **Location:** Târgu Mureș
-- **Status:** scraped
-
-### Tehnician întreținere
-
-- **URL:** [https://cariere.auchan.ro/job/tehnician-intretinere-283066](https://cariere.auchan.ro/job/tehnician-intretinere-283066)
-- **Work Mode:** on-site
-- **Location:** Timișoara
 - **Status:** scraped
 
 ### Operator vânzări polivalent
