@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, STR BRAŞOV, NR.25, CAMERA 1, ET.4 |
 | Website | [https://www.auchan.ro](https://www.auchan.ro) |
 | Careers | [https://cariere.auchan.ro/joburi](https://cariere.auchan.ro/joburi) |
-| Last Scraped | 2026-10-22 |
+| Last Scraped | 2026-10-23 |
 
-## Current Job Listings (73)
+## Current Job Listings (74)
 
-_Generated: 2026-10-22T11:20:41.638Z_
+_Generated: 2026-10-23T10:57:39.104Z_
 
 ### Specialist Aprovizionare
 
@@ -54,6 +54,13 @@ _Generated: 2026-10-22T11:20:41.638Z_
 ### Vânzător produse proaspete
 
 - **URL:** [https://cariere.auchan.ro/job/vanzator-produse-proaspete-273201](https://cariere.auchan.ro/job/vanzator-produse-proaspete-273201)
+- **Work Mode:** on-site
+- **Location:** București
+- **Status:** scraped
+
+### Operator vânzări polivalent
+
+- **URL:** [https://cariere.auchan.ro/job/operator-vanzari-polivalent-273237](https://cariere.auchan.ro/job/operator-vanzari-polivalent-273237)
 - **Work Mode:** on-site
 - **Location:** București
 - **Status:** scraped
