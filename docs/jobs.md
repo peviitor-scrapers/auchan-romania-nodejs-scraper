@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, STR BRAŞOV, NR.25, CAMERA 1, ET.4 |
 | Website | [https://www.auchan.ro](https://www.auchan.ro) |
 | Careers | [https://cariere.auchan.ro/joburi](https://cariere.auchan.ro/joburi) |
-| Last Scraped | 2026-10-25 |
+| Last Scraped | 2026-10-26 |
 
-## Current Job Listings (74)
+## Current Job Listings (73)
 
-_Generated: 2026-10-25T10:37:33.120Z_
+_Generated: 2026-10-26T12:11:23.588Z_
 
 ### Specialist Aprovizionare
 
@@ -481,13 +481,6 @@ _Generated: 2026-10-25T10:37:33.120Z_
 ### Operator vânzări polivalent case
 
 - **URL:** [https://cariere.auchan.ro/job/operator-vanzari-polivalent-case-556158](https://cariere.auchan.ro/job/operator-vanzari-polivalent-case-556158)
-- **Work Mode:** on-site
-- **Location:** București
-- **Status:** scraped
-
-### Product Owner
-
-- **URL:** [https://cariere.auchan.ro/job/product-owner-563452](https://cariere.auchan.ro/job/product-owner-563452)
 - **Work Mode:** on-site
 - **Location:** București
 - **Status:** scraped
