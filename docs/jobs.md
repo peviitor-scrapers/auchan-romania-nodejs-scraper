@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, STR BRAŞOV, NR.25, CAMERA 1, ET.4 |
 | Website | [https://www.auchan.ro](https://www.auchan.ro) |
 | Careers | [https://cariere.auchan.ro/joburi](https://cariere.auchan.ro/joburi) |
-| Last Scraped | 2026-11-03 |
+| Last Scraped | 2026-11-04 |
 
-## Current Job Listings (73)
+## Current Job Listings (70)
 
-_Generated: 2026-11-03T13:32:08.799Z_
+_Generated: 2026-11-04T13:43:13.155Z_
 
 ### Specialist Aprovizionare
 
@@ -194,20 +194,6 @@ _Generated: 2026-11-03T13:32:08.799Z_
 ### Manager departamente comerciale
 
 - **URL:** [https://cariere.auchan.ro/job/manager-departamente-comerciale-281895](https://cariere.auchan.ro/job/manager-departamente-comerciale-281895)
-- **Work Mode:** on-site
-- **Location:** București
-- **Status:** scraped
-
-### Operator vânzări polivalent
-
-- **URL:** [https://cariere.auchan.ro/job/operator-vanzari-polivalent-281926](https://cariere.auchan.ro/job/operator-vanzari-polivalent-281926)
-- **Work Mode:** on-site
-- **Location:** București
-- **Status:** scraped
-
-### Picker E-Commerce
-
-- **URL:** [https://cariere.auchan.ro/job/picker-e-commerce-281927](https://cariere.auchan.ro/job/picker-e-commerce-281927)
 - **Work Mode:** on-site
 - **Location:** București
 - **Status:** scraped
@@ -511,13 +497,6 @@ _Generated: 2026-11-03T13:32:08.799Z_
 - **URL:** [https://cariere.auchan.ro/job/vanzator-legume-fructe-572552](https://cariere.auchan.ro/job/vanzator-legume-fructe-572552)
 - **Work Mode:** on-site
 - **Location:** București
-- **Status:** scraped
-
-### Tehnician Întreținere
-
-- **URL:** [https://cariere.auchan.ro/job/tehnician-intretinere-574744](https://cariere.auchan.ro/job/tehnician-intretinere-574744)
-- **Work Mode:** on-site
-- **Location:** Bucuresti
 - **Status:** scraped
 
 ### Operator vânzări polivalent
