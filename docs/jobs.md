@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, STR BRAŞOV, NR.25, CAMERA 1, ET.4 |
 | Website | [https://www.auchan.ro](https://www.auchan.ro) |
 | Careers | [https://cariere.auchan.ro/joburi](https://cariere.auchan.ro/joburi) |
-| Last Scraped | 2026-11-11 |
+| Last Scraped | 2026-11-12 |
 
 ## Current Job Listings (70)
 
-_Generated: 2026-11-11T13:29:21.075Z_
+_Generated: 2026-11-12T14:33:16.062Z_
 
 ### Specialist Aprovizionare
 
