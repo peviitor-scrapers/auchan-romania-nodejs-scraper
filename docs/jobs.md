@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, STR BRAŞOV, NR.25, CAMERA 1, ET.4 |
 | Website | [https://www.auchan.ro](https://www.auchan.ro) |
 | Careers | [https://cariere.auchan.ro/joburi](https://cariere.auchan.ro/joburi) |
-| Last Scraped | 2026-11-25 |
+| Last Scraped | 2026-11-26 |
 
-## Current Job Listings (71)
+## Current Job Listings (73)
 
-_Generated: 2026-11-25T16:44:11.531Z_
+_Generated: 2026-11-26T16:17:21.990Z_
 
 ### Specialist Aprovizionare
 
@@ -511,4 +511,18 @@ _Generated: 2026-11-25T16:44:11.531Z_
 - **URL:** [https://cariere.auchan.ro/job/manager-receptie-marfa-581372](https://cariere.auchan.ro/job/manager-receptie-marfa-581372)
 - **Work Mode:** on-site
 - **Location:** România
+- **Status:** scraped
+
+### Operator Vanzari Polivalent
+
+- **URL:** [https://cariere.auchan.ro/job/operator-vanzari-polivalent-582306](https://cariere.auchan.ro/job/operator-vanzari-polivalent-582306)
+- **Work Mode:** on-site
+- **Location:** Bucuresti
+- **Status:** scraped
+
+### Manager Departamente Comerciale Stagiar
+
+- **URL:** [https://cariere.auchan.ro/job/manager-departamente-comerciale-stagiar-582316](https://cariere.auchan.ro/job/manager-departamente-comerciale-stagiar-582316)
+- **Work Mode:** on-site
+- **Location:** Bucuresti
 - **Status:** scraped
