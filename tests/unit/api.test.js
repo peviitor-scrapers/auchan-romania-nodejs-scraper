@@ -59,6 +59,15 @@ describe('scraper/api.js', () => {
       expect(result.docs).toEqual([]);
     });
 
+    it('should treat 404 "No jobs for CIF" as an empty result', async () => {
+      mockFetch.mockResolvedValue(makeErrorResponse(404, '{"error":"No jobs for CIF 39176747","code":404}'));
+
+      const result = await solr.querySOLR('39176747');
+
+      expect(result.numFound).toBe(0);
+      expect(result.docs).toEqual([]);
+    });
+
     it('should throw on HTTP error', async () => {
       mockFetch.mockResolvedValue(makeErrorResponse(500, 'Internal Server Error'));
 
@@ -77,9 +86,9 @@ describe('scraper/api.js', () => {
     });
 
     it('should not retry a 4xx response', async () => {
-      mockFetch.mockResolvedValue(makeErrorResponse(404, 'Not Found'));
+      mockFetch.mockResolvedValue(makeErrorResponse(403, 'Forbidden'));
 
-      await expect(solr.querySOLR('39176747')).rejects.toThrow('API jobs query error: 404');
+      await expect(solr.querySOLR('39176747')).rejects.toThrow('API jobs query error: 403');
       expect(mockFetch).toHaveBeenCalledTimes(1);
     });
   });
