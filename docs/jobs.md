@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, STR BRAŞOV, NR.25, CAMERA 1, ET.4 |
 | Website | [https://www.auchan.ro](https://www.auchan.ro) |
 | Careers | [https://cariere.auchan.ro/joburi](https://cariere.auchan.ro/joburi) |
-| Last Scraped | 2026-11-26 |
+| Last Scraped | 2026-11-27 |
 
-## Current Job Listings (73)
+## Current Job Listings (74)
 
-_Generated: 2026-11-26T16:17:21.990Z_
+_Generated: 2026-11-27T16:03:02.123Z_
 
 ### Specialist Aprovizionare
 
@@ -525,4 +525,11 @@ _Generated: 2026-11-26T16:17:21.990Z_
 - **URL:** [https://cariere.auchan.ro/job/manager-departamente-comerciale-stagiar-582316](https://cariere.auchan.ro/job/manager-departamente-comerciale-stagiar-582316)
 - **Work Mode:** on-site
 - **Location:** Bucuresti
+- **Status:** scraped
+
+### Agent Securitate
+
+- **URL:** [https://cariere.auchan.ro/job/agent-securitate-582472](https://cariere.auchan.ro/job/agent-securitate-582472)
+- **Work Mode:** on-site
+- **Location:** România
 - **Status:** scraped
