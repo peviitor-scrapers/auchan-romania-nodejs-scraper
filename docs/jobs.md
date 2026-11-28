@@ -7,14 +7,14 @@
 | CIF | 17233051 |
 | Brand | Auchan |
 | Status | activ |
-| Location | MUNICIPIUL BUCUREŞTI, SECTOR 6, STR BRAŞOV, NR.25, CAMERA 1, ET.4 |
+| Location | Bucuresti |
 | Website | [https://www.auchan.ro](https://www.auchan.ro) |
 | Careers | [https://cariere.auchan.ro/joburi](https://cariere.auchan.ro/joburi) |
-| Last Scraped | 2026-11-27 |
+| Last Scraped | 2026-11-28 |
 
 ## Current Job Listings (74)
 
-_Generated: 2026-11-27T16:03:02.123Z_
+_Generated: 2026-11-28T14:59:00.032Z_
 
 ### Specialist Aprovizionare
 
